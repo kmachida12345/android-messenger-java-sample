@@ -1,0 +1,104 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="BadExceptionCaught" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="exceptionsString" value="" />
+      <option name="exceptions">
+        <value />
+      </option>
+    </inspection_tool>
+    <inspection_tool class="BadExceptionDeclared" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="exceptionsString" value="" />
+      <option name="exceptions">
+        <value />
+      </option>
+      <option name="ignoreTestCases" value="false" />
+      <option name="ignoreLibraryOverrides" value="false" />
+    </inspection_tool>
+    <inspection_tool class="BadExceptionThrown" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="exceptionsString" value="" />
+      <option name="exceptions">
+        <value />
+      </option>
+    </inspection_tool>
+    <inspection_tool class="BooleanMethodNameMustStartWithQuestion" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="ignoreBooleanMethods" value="false" />
+      <option name="ignoreInAnnotationInterface" value="true" />
+      <option name="onlyWarnOnBaseMethods" value="true" />
+      <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,put,remove,shall,should,startsWith,was,were,will,would" />
+    </inspection_tool>
+    <inspection_tool class="CatchMayIgnoreException" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ExceptionNameDoesntEndWithException" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="FieldNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
+      <extension name="ConstantNamingConvention" enabled="true">
+        <option name="m_regex" value="[A-Z][A-Z_\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="32" />
+      </extension>
+      <extension name="ConstantWithMutableFieldTypeNamingConvention" enabled="true">
+        <option name="m_regex" value="[A-Z][A-Z_\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="32" />
+      </extension>
+      <extension name="EnumeratedConstantNamingConvention" enabled="true">
+        <option name="m_regex" value="[A-Z][A-Z_\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="32" />
+      </extension>
+      <extension name="InstanceVariableNamingConvention" enabled="true">
+        <option name="m_regex" value="m[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="32" />
+      </extension>
+      <extension name="StaticVariableNamingConvention" enabled="true">
+        <option name="m_regex" value="s[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="32" />
+      </extension>
+    </inspection_tool>
+    <inspection_tool class="MagicNumber" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="ignoreObjectMethods" value="true" />
+      <option name="ignoreAnonymousClassMethods" value="false" />
+    </inspection_tool>
+    <inspection_tool class="MultipleVariablesInDeclaration" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="NewClassNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
+      <extension name="AbstractClassNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="ClassNamingConvention" enabled="true">
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="EnumeratedClassNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="InterfaceNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+    </inspection_tool>
+    <inspection_tool class="NonBooleanMethodNameMayNotStartWithQuestion" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,put,remove,shall,should,startsWith,was,were,will,would" />
+      <option name="ignoreBooleanMethods" value="false" />
+      <option name="onlyWarnOnBaseMethods" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NonExceptionNameEndsWithException" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PackageNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="m_regex" value="[a-z]*" />
+      <option name="m_minLength" value="2" />
+      <option name="m_maxLength" value="32" />
+    </inspection_tool>
+    <inspection_tool class="ProblematicWhitespace" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>
